@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Banner Ad at the bottom
         AdView adView = new AdView(this);
-        adView.setAdUnitId("ca-app-pub-3940256099942544/6300978111"); // TEST banner for now
+        adView.setAdUnitId("ca-app-pub-8495478394744279/3857000788"); // TEST banner for now
         // When ready for real ads, replace the line above with your real Banner Ad Unit ID
         adView.setAdSize(AdSize.BANNER);
         FrameLayout.LayoutParams adParams = new FrameLayout.LayoutParams(
