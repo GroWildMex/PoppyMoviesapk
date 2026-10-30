@@ -43,10 +43,9 @@ public class MainActivity extends AppCompatActivity {
         webParams.bottomMargin = 120; // space for banner
         root.addView(webView, webParams);
 
-        // Banner Ad at the bottom
+        // Real Banner Ad
         AdView adView = new AdView(this);
-        adView.setAdUnitId("ca-app-pub-8495478394744279/3857000788"); // TEST banner for now
-        // When ready for real ads, replace the line above with your real Banner Ad Unit ID
+        adView.setAdUnitId("ca-app-pub-8495478394744279/3857000788");
         adView.setAdSize(AdSize.BANNER);
         FrameLayout.LayoutParams adParams = new FrameLayout.LayoutParams(
                 FrameLayout.LayoutParams.MATCH_PARENT,
