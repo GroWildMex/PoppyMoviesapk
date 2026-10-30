@@ -82,20 +82,12 @@
             android:id="@+id/btnContinue"
             android:layout_width="420dp"
             android:layout_height="70dp"
-            android:layout_marginBottom="48dp"
             android:text="Press OK to Continue ▸"
             android:textSize="22sp"
             android:textStyle="bold"
             android:textColor="#1A1206"
             android:background="@drawable/btn_shiny_orange"
             android:elevation="10dp" />
-
-    </LinearLayout>
-</FrameLayout>
-        <!-- Continue Button -->
-        <Button
-            android:id="@+id/btnContinue"
-            ... existing button code ... />
 
         <!-- Footer -->
         <TextView
@@ -106,3 +98,6 @@
             android:text="App's By Sunrise Systems Inc Gdl"
             android:textColor="#AAAAAA"
             android:textSize="14sp" />
+
+    </LinearLayout>
+</FrameLayout>
