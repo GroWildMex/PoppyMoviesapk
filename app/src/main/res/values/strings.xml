@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Poppy Movies</string>
+    <string name="welcome_sub">Welcome! Grab your popcorn 🍿 and enjoy the show 🎬🥤</string>
+    <string name="btn_continue">Continue ▸</string>
+</resources>
