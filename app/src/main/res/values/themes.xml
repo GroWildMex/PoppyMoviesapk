@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.Poppy" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/poppyBg</item>
+        <item name="colorAccent">@color/poppyAccent</item>
+    </style>
+</resources>
